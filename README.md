@@ -13,3 +13,12 @@ yarn hardhat node
 node scripts/deployGreeter.js
 yarn hardhat help
 ```
+
+## The `.env` file
+
+At the very least, the `.env` file will contain
+
+```
+PROD_SECRET="<mainnet seed phrase>"
+TESTNET_SECRET="<testnet seed phrase>"
+```
